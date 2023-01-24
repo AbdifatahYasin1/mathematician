@@ -48,11 +48,9 @@ Webpack
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
--- [x] **Mobile UI**
-- [ ] **Add math quotes**
-- [ ] **Add calculators**
+- Use calculator
+- Use calculator to make calculations(Addition, Subtraction, Multiplication, Division and Percentage)
+- Access Home page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,9 +177,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- Use calculator
-- Use calculator to make calculations(Addition, Subtraction,   Multiplication, Division and Percentage)
-- Access Home page
+- I will add cos,sin and tan 
+- Square rootes
 
 
 
