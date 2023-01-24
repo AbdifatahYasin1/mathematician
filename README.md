@@ -1,4 +1,4 @@
-# Leaderboard
+# Mathematician:
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -6,9 +6,9 @@
 
 > Describe your project in 1 or 2 sentences.
 
-This is the first project of the Math Magicians application.
+Calculator App is a web app that allows the user to make mathematcal calculations.
 
-**[Leaderboard: setup]** It is leaderboard Api using Js.
+**[Mathematician:: setup]** It is Mathematician using React js.
 
 ## 🛠 Built With <a name="built-with">
 
@@ -50,9 +50,9 @@ Webpack
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+-- [x] **Mobile UI**
+- [ ] **Add math quotes**
+- [ ] **Add calculators**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,26 +78,29 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+In order to run this project you need:
 
-```sh
- gem install rails
-```
- -->
+- Google chrome
+
+- Internet Explorer
+
+- Any broswer
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+
+- Open the command prompt/terminal and navigate to the created directory.
+
+- On the terminal run this command git clone `https://github.com/AbdifatahYasin1/mathematician.git`
+
+- Go to the repository folder using command prompt
+
+- Make sure to intall linters using this link: `https://github.com/microverseinc/linters-config`.
+
+- Make sure to intall all dependencies using npm install.
 
 ### Install
 
@@ -176,9 +179,11 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Use calculator
+- Use calculator to make calculations(Addition, Subtraction,   Multiplication, Division and Percentage)
+- Access Home page
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,13 +223,13 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[what is this project about?]**
 
-  - [Answer_1]
+  - Calculator App is a web app that allows the user to make mathematcal calculations.
 
-- **[Question_2]**
+- **[do I need to use npm ?]**
 
-  - [Answer_2]
+  - you need to use it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
