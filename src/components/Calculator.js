@@ -28,7 +28,7 @@ function Calculator() {
       <button type="button" className="border gray" onClick={eventHandler}>7</button>
       <button type="button" className="border " onClick={eventHandler}> 8 </button>
       <button type="button" className="border gray" onClick={eventHandler}>9</button>
-      <button type="button" className="border orange" onClick={eventHandler}>&times;</button>
+      <button type="button" className="border orange" onClick={eventHandler}>x</button>
 
       <button type="button" className="border gray" onClick={eventHandler}>4</button>
       <button type="button" className="border " onClick={eventHandler}> 5 </button>
