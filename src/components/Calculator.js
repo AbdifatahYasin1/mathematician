@@ -1,39 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 
-class Calculator extends React.PureComponent {
-  render() {
-    return (
+function Calculator() {
+  const intialData = { total: 0, next: null, operation: null };
+  const [input, setInput] = useState(intialData);
 
-      <div className="container">
-        <div className="sero">0</div>
-        <div className="border gray">AC</div>
-        <div className="border "> &#43;/&minus; </div>
-        <div className="border ">%</div>
-        <div className="border orange ">&divide;</div>
+  const eventHandler = (e) => {
+    const btnClicked = e.target.innerText;
+    const result = calculate(input, btnClicked);
+    setInput(result);
+  };
+  const { total, operation, next } = input;
 
-        <div className="border gray">7</div>
-        <div className="border "> 8 </div>
-        <div className="border gray">9</div>
-        <div className="border orange">&times;</div>
+  return (
 
-        <div className="border gray">4</div>
-        <div className="border "> 5 </div>
-        <div className="border gray">6</div>
-        <div className="border orange ">-</div>
-
-        <div className="border gray">1</div>
-        <div className="border ">2 </div>
-        <div className="border gray">3</div>
-        <div className="border orange ">+</div>
-
-        <div className="border span ">0 </div>
-        <div className="border gray">.</div>
-        <div className="border ">=</div>
-
+    <div className="container">
+      <div className="sero">
+        {total}
+        {operation}
+        {next}
       </div>
+      <button type="button" className="border gray" onClick={eventHandler}>AC</button>
+      <button type="button" className="border " onClick={eventHandler}> &#43;/&minus; </button>
+      <button type="button" className="border " onClick={eventHandler}>%</button>
+      <button type="button" className="border orange " onClick={eventHandler}>&divide;</button>
 
-    );
-  }
+      <button type="button" className="border gray" onClick={eventHandler}>7</button>
+      <button type="button" className="border " onClick={eventHandler}> 8 </button>
+      <button type="button" className="border gray" onClick={eventHandler}>9</button>
+      <button type="button" className="border orange" onClick={eventHandler}>&times;</button>
+
+      <button type="button" className="border gray" onClick={eventHandler}>4</button>
+      <button type="button" className="border " onClick={eventHandler}> 5 </button>
+      <button type="button" className="border gray" onClick={eventHandler}>6</button>
+      <button type="button" className="border orange " onClick={eventHandler}>-</button>
+
+      <button type="button" className="border gray" onClick={eventHandler}>1</button>
+      <button type="button" className="border " onClick={eventHandler}>2 </button>
+      <button type="button" className="border gray" onClick={eventHandler}>3</button>
+      <button type="button" className="border orange " onClick={eventHandler}>+</button>
+
+      <button type="button" className="border span " onClick={eventHandler}>0 </button>
+      <button type="button" className="border gray" onClick={eventHandler}>.</button>
+      <button type="button" className="border " onClick={eventHandler}>=</button>
+
+    </div>
+
+  );
 }
 
 export default Calculator;
