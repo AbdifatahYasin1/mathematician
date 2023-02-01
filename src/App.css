@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#caf0f8;
+  background-color: #caf0f8;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   width: 50%;
-  margin-left:49%;
+  margin-left: 49%;
   text-align: center;
   background: #d5d5d5;
   border: 1px solid black;
@@ -44,33 +44,36 @@ body {
 .span {
   grid-column: 1/ span 2;
 }
-.navbar{
+
+.navbar {
   padding: 40px;
   background-color: #03045e;
   display: flex;
   justify-content: space-around;
-  
 }
-.navbar h1{
-  color: #d5d5d5;
 
+.navbar h1 {
+  color: #d5d5d5;
 }
-.navbar ul{
+
+.navbar ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
-  
 }
-.navbar li a{
-  color: #fff;;
+
+.navbar li a {
+  color: #fff;
   text-decoration: none;
   margin: 10px;
 }
-.navbar li a:hover{
+
+.navbar li a:hover {
   border-radius: 5px;
   background: #000;
 }
-#quote{
+
+#quote {
   width: 50%;
   margin: auto;
   margin-top: 100px;
@@ -78,7 +81,7 @@ body {
   font-size: 22px;
 }
 
-#home{
+#home {
   width: 50%;
   margin: auto;
   margin-top: 100px;
