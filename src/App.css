@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: bisque;
+  background-color: #caf0f8;
 }
 
 .container {
@@ -43,4 +43,42 @@ body {
 
 .span {
   grid-column: 1/ span 2;
+}
+
+.navbar {
+  padding: 40px;
+  background-color: #03045e;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.navbar li a:hover {
+  border-radius: 5px;
+  background: #000;
+}
+
+#quote {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 22px;
+}
+
+#home {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 22px;
 }
