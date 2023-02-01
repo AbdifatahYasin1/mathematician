@@ -82,9 +82,7 @@ Webpack
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- Under construction
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
