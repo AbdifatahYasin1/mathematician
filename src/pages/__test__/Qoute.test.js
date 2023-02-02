@@ -1,4 +1,3 @@
-// test qoute
 import React from 'react';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
@@ -11,7 +10,7 @@ describe('Testing Qoute', () => {
 });
 test('should have a length of 1', () => {
   const { getAllByText } = render(<Quote />);
-  const text = getAllByText(/Mathematics is the study of numbers, shapes, and patterns./);
+  const text = getAllByText(/Mathematics is the language in which God has written the universe./);
   expect(text).toHaveLength(1);
 });
 it('fisrt snap shot test', () => {
