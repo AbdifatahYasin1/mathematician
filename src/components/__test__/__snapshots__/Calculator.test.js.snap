@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fisrt snap shot test 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="sero"
+  >
+    0
+  </div>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+     +/− 
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="border orange "
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+     8 
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="border orange"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+     5 
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="border orange "
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+    2 
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="border orange "
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="border span "
+    onClick={[Function]}
+    type="button"
+  >
+    0 
+  </button>
+  <button
+    className="border gray"
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="border "
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
