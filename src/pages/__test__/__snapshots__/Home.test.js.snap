@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fisrt snap shot test 1`] = `
+<div
+  id="home"
+>
+  <h1>
+    What is Mathematics?
+  </h1>
+  <p>
+    Mathematics is the study of numbers, shapes, and patterns. 
+  </p>
+</div>
+`;
